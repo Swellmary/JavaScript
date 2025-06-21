@@ -9,5 +9,5 @@ function greet() {
 }
 
 greet();
-console.log(name);    // Output: "Global"
+console.log(name);    // Output: "Global" 
 
