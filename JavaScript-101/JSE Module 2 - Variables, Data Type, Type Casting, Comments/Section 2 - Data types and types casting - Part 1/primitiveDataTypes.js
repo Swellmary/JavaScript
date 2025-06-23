@@ -76,3 +76,28 @@ console.timeEnd(); // -> default: 0.108154296875 ms
 console.error();
 console.warn();
 
+let str = "java script language";
+
+console.log(str.charAt(15));
+console.log(str.slice(0, 4));
+console.log(str.length);
+console.log()
+
+//dot can appear after literals too
+
+let river = "Mekong";
+let character = river.charAt(2);
+
+console.log(character);
+
+console.log(str.split(""));
+console.log(str.split(" "));
+
+console.log("hey yow" .length);
+
+
+console.log("___________________________")
+console.log("STRING");
+
+ 
+
