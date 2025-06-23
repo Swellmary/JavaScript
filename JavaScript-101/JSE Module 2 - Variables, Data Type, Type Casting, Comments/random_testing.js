@@ -26,6 +26,20 @@
 // console.log(notDeclaredValue); // -> Uncaught ReferenceError: notDeclaredValue is not defined
 
 
-const str1 = 42 + +"1"; 
+// const str1 = 42 + +"1"; 
 
-console.log(str1);
+// console.log(str1);
+
+let names = ["Olivia", "Emma", "Mateo", "Samuel"];
+
+let sl1 = names.slice(2);
+console.log(sl1);
+
+let sl2 = names.slice(0, 2);
+console.log(sl2);
+
+let sl3 = names.slice(0, -3);
+console.log(sl3)
+
+let sl4 = names.slice(-1);
+console.log(sl4);
