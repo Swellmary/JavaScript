@@ -1,5 +1,5 @@
 
-console.log("BOOLEAN");
+console.log(">>BOOLEAN");
 
 let isDataValid = true;
 let isStringTooLong = false;
@@ -13,7 +13,7 @@ console.log(typeof isDataValid); //-> boolean
 
 console.log("___________________________")
 
-console.log("NUMBER");
+console.log(">>NUMBER");
 
 const year = 1991;
 let delayInSeconds = 0.00016;
@@ -33,8 +33,7 @@ console.log(typeof b); // -> Number
 
 
 console.log("___________________________")
-
-console.log("BIGINT/BigInt");
+console.log(">>BIGINT/BigInt");
 
 // let  big3  =  1000n  +  20;  
 //  ->  Uncaught  TypeError:  Cannot  mix  BigInt  and  other  types,  use  explicit  conversions
@@ -51,7 +50,7 @@ console.log(7n / 4n); // -> 1n
 
 
 console.log("___________________________")
-console.log("STRING");
+console.log(">>STRING");
 
 let country = "Malawi";
 let continent = "Africa";
@@ -97,7 +96,20 @@ console.log("hey yow" .length);
 
 
 console.log("___________________________")
-console.log("STRING");
+console.log(">>UNDEFINED");
+console.log(">>NULL");
 
- 
+
+let nullValue;
+console.log(nullValue); // -> undefined
+
+// if the value is undefined we should put it a null. 
+// null is for an empty value/property/value;
+
+let thisNullValue = null;
+console.log(thisNullValue); // -> null
+
+console.log(typeof notDeclaredValue); // ->undefined
+console.log(notDeclaredValue); // -> Uncaught ReferenceError: notDeclaredValue is not defined
+
 
