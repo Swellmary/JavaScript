@@ -1,3 +1,7 @@
+
+
+//COMPLEX DATA TYPES ~ OBJECT
+
 let object = {};
 console.log(typeof object);
 
