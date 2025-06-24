@@ -30,16 +30,58 @@
 
 // console.log(str1);
 
-let names = ["Olivia", "Emma", "Mateo", "Samuel"];
+// let names = ["Olivia", "Emma", "Mateo", "Samuel"];
 
-let sl1 = names.slice(2);
-console.log(sl1);
+// let sl1 = names.slice(2);
+// console.log(sl1);
 
-let sl2 = names.slice(0, 2);
-console.log(sl2);
+// let sl2 = names.slice(0, 2);
+// console.log(sl2);
 
-let sl3 = names.slice(0, -3);
-console.log(sl3)
+// let sl3 = names.slice(0, -3);
+// console.log(sl3)
 
-let sl4 = names.slice(-1);
-console.log(sl4);
+// let sl4 = names.slice(-1);
+// console.log(sl4);
+
+let books = [
+    {
+        title: "Speaking JavaScript", 
+        author: "Axel Rauschmayer",
+        pages: 460
+
+    },
+
+    {
+        title: "Programming JavaScript Applications", 
+        author: "Eric Elliott",
+        pages: 254
+
+    },
+
+    {
+        title: "Understanding ECMAScript 6", 
+        author: "Nicholas C. Zakas",
+        pages: 352
+
+    }
+];
+
+let newBook = {
+    title: "Learning JavaScript Design Patterns", 
+    author: "Addy Osmani", 
+    pages: 256
+}
+
+
+books.push(newBook);
+
+//Question 5: Use the slice command to copy the last two books to the new array.
+
+
+books.shift();
+
+console.log(books.length);
+console.log(books[0].title);
+console.log(books[1].title);
+console.log(books[2].title);

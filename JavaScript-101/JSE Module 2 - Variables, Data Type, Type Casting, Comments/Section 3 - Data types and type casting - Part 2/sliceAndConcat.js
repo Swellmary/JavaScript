@@ -1,3 +1,5 @@
+//What array is Used for continuation
+
 
 //continuation to arrayUseFor file
 //SLICE is picking up property in particular
@@ -14,7 +16,7 @@ let sl3 = names.slice(0, -3);
 console.log(sl3)
 
 let sl4 = names.slice(-1);
-console.log(sl4);
+console.log(sl4);git
 
 console.log(names); //the overall array isn't really affected.
 
