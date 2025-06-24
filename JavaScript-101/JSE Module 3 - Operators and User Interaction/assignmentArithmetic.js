@@ -1,5 +1,4 @@
 
-
 //ASSIGNMENT (=)
 
 let year = 2050;
@@ -34,31 +33,6 @@ console.log(`${n1} : ${typeof n1}`); //123
 console.log(`${n2} : ${typeof n2}`); //-123
 console.log(`${n3} : ${typeof n3}`); //123
 console.log(`${n4} : ${typeof n4}`); //NaN
-
-//UNARY INCREMENT AND DECREMENT
-
-let n = 5;
-
-console.log(n++); // -> 6
-console.log(n); // -> 7 
-
-let z = 3;
-
-console.log(++z); // -> 4
-console.log(z++); // -> 4 returns the original value
-console.log(z); // -> 5 // then returns the value coming from n++, which affects only after one declaration
-
-//the line of code was interpreted like this 
-
-{
-    // ++n
-    n = n + 1;
-
-    //n++
-    let temp = z;
-    z = z + 1;
-    return temp;
-};
 
 
 
