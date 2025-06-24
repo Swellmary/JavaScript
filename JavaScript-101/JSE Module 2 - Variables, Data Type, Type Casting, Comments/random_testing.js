@@ -44,44 +44,53 @@
 // let sl4 = names.slice(-1);
 // console.log(sl4);
 
-let books = [
-    {
-        title: "Speaking JavaScript", 
-        author: "Axel Rauschmayer",
-        pages: 460
+// let books = [
+//     {
+//         title: "Speaking JavaScript", 
+//         author: "Axel Rauschmayer",
+//         pages: 460
 
-    },
+//     },
 
-    {
-        title: "Programming JavaScript Applications", 
-        author: "Eric Elliott",
-        pages: 254
+//     {
+//         title: "Programming JavaScript Applications", 
+//         author: "Eric Elliott",
+//         pages: 254
 
-    },
+//     },
 
-    {
-        title: "Understanding ECMAScript 6", 
-        author: "Nicholas C. Zakas",
-        pages: 352
+//     {
+//         title: "Understanding ECMAScript 6", 
+//         author: "Nicholas C. Zakas",
+//         pages: 352
 
-    }
-];
+//     }
+// ];
 
-let newBook = {
-    title: "Learning JavaScript Design Patterns", 
-    author: "Addy Osmani", 
-    pages: 256
+// let newBook = {
+//     title: "Learning JavaScript Design Patterns", 
+//     author: "Addy Osmani", 
+//     pages: 256
+// }
+
+
+// books.push(newBook);
+
+// //Question 5: Use the slice command to copy the last two books to the new array.
+
+
+// books.shift();
+
+// console.log(books.length);
+// console.log(books[0].title);
+// console.log(books[1].title);
+// console.log(books[2].title);
+
+
+let height = 200;
+
+{
+    let height = "300";
+    height = height + 200
 }
-
-
-books.push(newBook);
-
-//Question 5: Use the slice command to copy the last two books to the new array.
-
-
-books.shift();
-
-console.log(books.length);
-console.log(books[0].title);
-console.log(books[1].title);
-console.log(books[2].title);
+console.log(height);

@@ -107,4 +107,3 @@ console.log ("Sum of all books pages:", sumOfAllPages); //2 ways of writing sent
 console.log(`All pages is ${sumOfAllPages}`);
 
 
-
