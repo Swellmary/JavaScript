@@ -48,5 +48,3 @@ let y = 0;
 console.log(x++ && y++); // -> 0, bisag mura ra siyag formula it still works with the output of it 
 console.log(x); // -> 1
 console.log(y); // -> y == 0
-
-//This time, the operation b ||= true is interpreted as b = b || true.
