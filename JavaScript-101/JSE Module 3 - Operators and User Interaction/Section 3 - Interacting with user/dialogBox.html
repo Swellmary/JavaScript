@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // DIALOG BOX - alert
+        alert("Are you sure you want to close the window?"); //pop up alert
+        window.alert("Your window is on alert! ");
+        alert(1 + 1); // 2
+        alert("Hey", "Joe!") // only the hey will dispaly
+        alert("AFTER THIS IS CONFIRM DIALOG BOX. ");
+
+        // CONFIRM DIALOG BOX
+        let decision = window.confirm("Is it Ok?");
+        console.log(decision);
+
+        let remove = confirm("Do you want to delete all your data?");
+        let message = remove ? "Deleting your data" : "Cancelled"; //not being displayed maybe this needs html
+        console.log(message);
+
+        // PROMPT DIALOG BOX
+        let add = prompt("1 + 1");
+        console.log(add);
+
+        let name = window.prompt("What is your name", "John Doe");
+        name = name ? name : "anonymous"; 
+        let age = window.prompt("Hello " + name + " how old are you");
+        alert(name + " is " + age + " years old");
+
+
+    </script>
+</body>
+</html>
